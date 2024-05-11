@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container"> <!--INICIO DO CONTEÚDO-->
+        <header> <!--INÍCIO DO CABEÇALHO-->
+            <div class="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav class="navegacao"> <!--INÍCIO NAVEGAÇAO-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav> <!--FIM NAVEGAÇÃO-->
+
+        </header> <!--FIM DO CAVEÇALHO-->
+
+        <div class="principal"> <!--INÍCIO PRINCIAPL-->
+            <div class="conteudo">
+                <section class="capa"> <!--INÍCIO CONTEÚDO-->
+                    <img src="./img/museu.png" alt="">
+                </section> <!--FIM CONTEÚDO-->
+
+                <section class="postagens"> <!--INÍCIO DAS POSTAGENS-->
+                    <article class="video">
+                        <h3>Vídeo: Conheça o Museu</h3>
+                        <iframe width="310" height="170"
+                            src="https://www.youtube.com/embed/RGUYb-hivrc?si=JgzChZrk6ZO5kudG&amp;start=3"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+
+                    <article class="mapa">
+                        <h3>Encontre o Museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1715385521538!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <br>
+                    <article class="expo"> 
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="#">O crânio de Luiza,
+                                    a mulher mais antiga do Brasil
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Preguiças gigantes e
+                                    tigre-dentes-de-sabre
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Plantas do Brasil central</a>
+                            </li>
+                            <li>
+                                <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                            </li>
+                            <li>
+                                <a href="#">Arte com Dinossauros - Paleoarte</a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>
+                                        Veja todos os 65
+                                    </strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Criado por D. João VI, em 06 de junho de 1818 e inicialmente, sediado no Campo de Sant'Ana,
+                            serviu para atender aos interesses de promoção do progresso cultural e econômico do país.
+                            Como museu universitário, tem perfil acadêmico e científico.
+                        </p>
+
+                        <a href="#"><strong>
+                                Leia mais...
+                            </strong></a>
+                    </article>
+
+                </section><!--FIM DAS POSTAGENS-->
+
+            </div>
+            <aside> <!--INÍCIO LATERAL-->
+                <section class="depoimento">
+                    <img src="./img/depoimento.png" alt="">
+                </section>
+
+                <section class="visita"> <!--INÍCIO VISITA-->
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                            <br><br>
+                            <label for="qtd">N° de pessoas</label>
+                            <input class="campo2" type="text" id="qtd" value="1">
+
+                        </fieldset>
+                        <br>
+                        <input class="button" type="submit" value="Verificar Disponibilidade">
+
+                    </form>
+                </section> <!--FIM VISITA-->
+
+
+
+                <section class="galeria"> <!--INÍCIO GALERIA-->
+                    <h4>Galeria</h4>
+
+                    <a href="">
+                        <img src="./img/imagem1.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem2.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem3.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem4.jpg" alt="">
+                    </a>
+                </section> <!--FINAL GALERIA-->
+
+
+            </aside> <!--FIM LATERAL-->
+
+            <footer>
+                <p>
+                <a href="">Home</a>
+                <a href="">Exposições</a>
+                <a href="">Pesquisa</a>
+                <a href="">Acervo</a>
+                <a href="">Vídeos</a>
+                <a href="">Fotos</a>
+                <a href="">Contato</a>
+            </p>
+            <p>
+                2024 <a href="">Museu Nacional</a> - Todos os direitos reservados
+            </p>
+            </footer>
+
+        </div> <!--FIM PRINCIPAL-->
+
+    </div><!--FIM DO CONTAINER-->
+</body>
+
+</html>
